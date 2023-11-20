@@ -14,4 +14,4 @@ jobs:
     needs: build
     steps:
       - name: step do deploy.
-        run: Hello, world! deploy.
+        run: echo Hello, world! deploy.
