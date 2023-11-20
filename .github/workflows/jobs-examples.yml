@@ -1,6 +1,7 @@
 name: jobs examples
 
-on: push
+on:
+  push
 
 jobs:
   build:
@@ -12,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: step do deploy
-        echo: Hello, world! deploy.
+      - name: step do deploy.
+        run: Hello, world! deploy.
